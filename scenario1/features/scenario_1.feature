@@ -10,16 +10,16 @@ Feature: Main header links
     When I click the link <link name>
     Then I should be transferred to <as expected>
     Scenarios:
-      | link name    | as expected                                            |         
+      | link name    | as expected                                           |         
       | Home ideas   | http://www.realestate.com.au/home-ideas/              |
       | Buy          | http://www.realestate.com.au/buy                      |    
       | Rent         | http://www.realestate.com.au/rent                     |
       | Invest       | http://www.realestate.com.au/invest                   |       
       | Sold         | http://www.realestate.com.au/sold                     |  
       | Share        | http://www.realestate.com.au/share                    |
-      | New homes    | http://www.realestate.com.au/new-homes/                |
+      | New homes    | http://www.realestate.com.au/new-homes/               |
       | Retire       | http://www.realestate.com.au/retire                   |
       | Find agents  | http://www.realestate.com.au/find-agent               |
       | Blog         | http://www.realestate.com.au/blog/                    |
-      | Commercial   | http://www.realcommercial.com.au/for-sale                 | 
+      | Commercial   | http://www.realcommercial.com.au/for-sale             | 
 

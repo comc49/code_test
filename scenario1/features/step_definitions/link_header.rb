@@ -1,9 +1,7 @@
 require 'watir'
 
 $browser = Watir::Browser.new
-#Given /^I am on ([\w]+.{3}[\w]+.[\w]+.[\w]+.[\w]+)$/ do |url|
 Given /^I am on (.+)$/ do |url|
-   #$browser = Watir::Browser.start("#{url}")
    $browser.goto("#{url}")
    $website = url 
 end
