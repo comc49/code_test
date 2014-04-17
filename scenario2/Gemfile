@@ -1,0 +1,17 @@
+source 'https://rubygems.org'
+
+group :test do
+  gem 'cucumber-rails', :require => false
+    # database_cleaner is not required, but highly recommended
+      gem 'database_cleaner'
+end
+
+
+gem "rake"
+gem "cucumber", ">0"
+gem "rspec", ">0"
+gem "watir-webdriver", ">0"
+gem "watir-page-helper", ">0"
+gem "headless", ">0"
+gem "watir", :platforms => [:mswin, :mingw]
+
