@@ -22,4 +22,3 @@ Feature: Main header links
       | Find agents  | http://www.realestate.com.au/find-agent               |
       | Blog         | http://www.realestate.com.au/blog/                    |
       | Commercial   | http://www.realcommercial.com.au/for-sale             | 
-
