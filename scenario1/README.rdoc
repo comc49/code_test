@@ -3,3 +3,4 @@
 Use "bundle install" to install all the required gems
 
 type "cucumber" inside the scenario1 directory to run the program
+look inside features folder for my code other folders are created by rails

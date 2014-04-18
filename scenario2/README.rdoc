@@ -2,3 +2,4 @@
 
 Use "bundle install" to install all the required gems
 run "cucumber" command inside the scenario2 directory to run the program
+features folder contain my code
